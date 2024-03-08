@@ -8,20 +8,21 @@
     font-style: normal;
 
 body{
-    background-color:#000000;
+    background-color:#0e0e0e;
     height: 100%;
 }
 
 .interface{
-    max-width: 1200px;
     margin:0 auto;
+    background-color: black;
 }
 
 
 /*Estilos Headers*/
 
 header{
-    padding: 40px 4%;
+    position: fixed;
+    width: 100%;
 }
 
 header > .interface /*Sinal de > para pegar todas classe dentro da header*/ { 
@@ -32,6 +33,7 @@ header > .interface /*Sinal de > para pegar todas classe dentro da header*/ {
 
 .logo {
     width: 5%;
+    margin-left: 20px;    
      }
   
   img {
@@ -50,6 +52,10 @@ header nav ul li{
     padding: 40px;
 }
 
+.btn_CV{
+    margin-right: 30px;
+}
+
 header .btn_CV button{
     padding: 10px 35px;
     font-size: 15px;
@@ -58,6 +64,7 @@ header .btn_CV button{
     border: 0;
     border-radius: 50px;
     cursor: pointer;
+    
 }
 
 header a:hover{

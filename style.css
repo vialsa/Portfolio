@@ -75,3 +75,33 @@ header a:hover{
 header .btn_CV button:hover{
     box-shadow: 0px opx 2px  #ff0202;
 }
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 10rem;
+}
+
+.home_img{
+    border-radius: 60%;
+    max-width: 250px;
+    max-height: 270px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 25px #c20000;
+    cursor: pointer;
+}
+    
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+main h1 {
+    color: beige;
+}

@@ -1,4 +1,5 @@
-/*Estilos Gerais*/
+/*--------------------Estilos Gerais----------------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -6,19 +7,24 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
+    --vermelho_padrao-- :#c20000;
+    --vermelho_brilhante--: #ff0202;
+    --cor_fonte--: #dfdddd;
+}
 
 body{
-    background-color:#0e0e0e;
+    background-color:#0a0a0a;
     height: 100%;
 }
+
+
+/*---------------------Estilos Headers(cabeçalho)------------------*/
+
 
 .interface{
     margin:0 auto;
     background-color: black;
 }
-
-
-/*Estilos Headers*/
 
 header{
     position: fixed;
@@ -41,7 +47,7 @@ header > .interface /*Sinal de > para pegar todas classe dentro da header*/ {
   }
 
 header a {
-    color:#c20000;
+    color:var(--vermelho_padrao--);
     text-decoration: none;
     display: inline-block; 
     transition: .2s;
@@ -49,7 +55,7 @@ header a {
 
 header nav ul li{
     display: inline-block;
-    padding: 40px;
+    padding: 38px;
 }
 
 .btn_CV{
@@ -60,7 +66,7 @@ header .btn_CV button{
     padding: 10px 35px;
     font-size: 15px;
     font-weight: 500;
-    background-color:#c20000;
+    background-color:var(--vermelho_padrao--);
     border: 0;
     border-radius: 50px;
     cursor: pointer;
@@ -68,12 +74,8 @@ header .btn_CV button{
 }
 
 header a:hover{
-    color: #ff0000;
+    color: var(--vermelho_brilhante--);
     transform: scale(1.1);
-}
-
-header .btn_CV button:hover{
-    box-shadow: 0px opx 2px  #ff0202;
 }
 
 section {
@@ -81,16 +83,30 @@ section {
     padding: 10rem 9% 10rem;
 }
 
-.home_img{
+
+/*---------------------Estilos Headers(cabeçalho)------------------*/
+
+
+.home_img{  
     border-radius: 60%;
     max-width: 250px;
     max-height: 270px;
     width: auto;
     height: auto;
     overflow: hidden;
-    position: relative;
-    box-shadow: 0 0 25px #c20000;
     cursor: pointer;
+    animation:sombra 3s linear ;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sombra {
+    from{
+        box-shadow: 0 0 30px var(--vermelho_padrao--);
+    }
+    to{
+        box-shadow: 0 0 10px var(--vermelho_brilhante--) ;
+    }
 }
 
 .home{
@@ -101,10 +117,30 @@ section {
     gap: 1em;
 }
 
-main h1 {
-    color: #ffffff;
+.pagina_home {
+    color: var(--cor_fonte--);
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
 }
 
+.pagina_home h1{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+
 span{
-    color: #c20000;
+    color: var(--vermelho_brilhante--);
+}
+
+.social_midia a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 3px;
+    
 }

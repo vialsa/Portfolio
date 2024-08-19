@@ -84,28 +84,28 @@ section {
 }
 
 
-/*---------------------Estilos Headers(cabeçalho)------------------*/
+/*---------------------Section home------------------*/
 
 
 .home_img{  
-    border-radius: 60%;
+    border-radius: 80%;
     max-width: 250px;
-    max-height: 270px;
+    max-height: 250px;
     width: auto;
     height: auto;
     overflow: hidden;
     cursor: pointer;
-    animation:sombra 3s linear ;
+    animation:sombra 2s linear ;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
 
 @keyframes sombra {
     from{
-        box-shadow: 0 0 30px var(--vermelho_padrao--);
+        box-shadow: 0 0 20px var(--vermelho_padrao--);
     }
     to{
-        box-shadow: 0 0 10px var(--vermelho_brilhante--) ;
+        box-shadow: 0 0 50px var(--vermelho_brilhante--) ;
     }
 }
 
@@ -144,3 +144,17 @@ span{
     margin: 3px;
     
 }
+
+
+/*---------------------section sobreM------------------*/
+
+
+.sobreM h1{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    color: var(--vermelho_padrao--);
+    text-shadow: 0 0 50px;
+    font-size: 2rem;
+}
+

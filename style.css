@@ -133,6 +133,7 @@ section {
 
 span{
     color: var(--vermelho_brilhante--);
+    text-shadow: 0 0 50px;
 }
 
 .social_midia a{
@@ -156,5 +157,13 @@ span{
     color: var(--vermelho_padrao--);
     text-shadow: 0 0 50px;
     font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sobreM h2{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    color: var(--vermelho_padrao--);
 }
 

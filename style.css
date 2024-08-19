@@ -10,6 +10,7 @@
     --vermelho_padrao-- :#c20000;
     --vermelho_brilhante--: #ff0202;
     --cor_fonte--: #dfdddd;
+    --backgraund_claro--: #1010106f;
 }
 
 body{
@@ -51,6 +52,8 @@ header a {
     text-decoration: none;
     display: inline-block; 
     transition: .2s;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 header nav ul li{
@@ -128,12 +131,14 @@ section {
     margin-bottom: 2rem;
     margin-top: 1rem;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 
 span{
     color: var(--vermelho_brilhante--);
     text-shadow: 0 0 50px;
+    font-weight: bold;
 }
 
 .social_midia a{
@@ -149,21 +154,34 @@ span{
 
 /*---------------------section sobreM------------------*/
 
+.sobreM{
+    background-color:var(--backgraund_claro--);
+}
 
 .sobreM h1{
     display: flex;
-    justify-content:baseline;
+    justify-content:center;
     align-items: center;
-    color: var(--vermelho_padrao--);
+    color: var(--vermelho_brilhante--);
     text-shadow: 0 0 50px;
     font-size: 2rem;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .sobreM h2{
     display: flex;
     justify-content:baseline;
     align-items: center;
-    color: var(--vermelho_padrao--);
+    color: var(--vermelho_brilhante--);
+    margin-bottom: 2rem;
+}
+
+.sobreM p{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    color: var(--cor_fonte--);
+    margin-bottom: 1rem;
 }
 

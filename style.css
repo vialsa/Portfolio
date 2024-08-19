@@ -171,7 +171,7 @@ span{
 
 .sobreM h2{
     display: flex;
-    justify-content:baseline;
+    justify-content:center;
     align-items: center;
     color: var(--vermelho_brilhante--);
     margin-bottom: 2rem;
@@ -185,3 +185,35 @@ span{
     margin-bottom: 1rem;
 }
 
+
+/*---------------------section ferramentas------------------*/
+
+
+.ferramentas h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: var(--vermelho_brilhante--);
+    text-shadow: 0 0 50px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.ferramentas-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+gap: 2rem;
+}
+
+.ferramentas-box{
+    background-color: var(--backgraund_claro--);
+    height: 250px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.ferramentas a{
+    gap: 1rem;
+}

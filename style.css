@@ -91,7 +91,7 @@ section {
 
 
 .home_img{  
-    border-radius: 80%;
+    border-radius: 40%;
     max-width: 250px;
     max-height: 250px;
     width: auto;
@@ -189,31 +189,66 @@ span{
 /*---------------------section ferramentas------------------*/
 
 
-.ferramentas h1{
-    display: flex;
-    justify-content:center;
-    align-items: center;
+.ferramentas h1 {
+    text-align: center;
     color: var(--vermelho_brilhante--);
     text-shadow: 0 0 50px;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     font-weight: bold;
+    margin-top: -9rem;
 }
 
-.ferramentas-container{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-align-items: center;
-gap: 2rem;
+.ferramentas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
 }
 
-.ferramentas-box{
+.ferramentas-box .ferramentas-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--cor_fonte--);
+}
+
+.ferramentas-box .ferramentas-info a {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 5px;
+}
+
+.ferramentas-box .ferramentas-info img {
+    width: 100%;
+    height: auto;
+}
+
+.ferramentas-box {
     background-color: var(--backgraund_claro--);
     height: 250px;
     border-radius: 3rem;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
-.ferramentas a{
+.ferramentas-box .ferramentas-info {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     gap: 1rem;
+}
+
+.ferramentas-box .ferramentas-info .icons-container {
+    display: flex; 
+    gap: 1rem; 
 }

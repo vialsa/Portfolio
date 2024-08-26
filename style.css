@@ -20,7 +20,11 @@ body{
 
 
 /*---------------------Estilos Headers(cabeçalho)------------------*/
-
+@media (max-width: 768px) {
+    header {
+        display: none; /* Esconde a header em telas menores que 768px */
+    }
+}
 
 .interface{
     margin:0 auto;

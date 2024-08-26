@@ -20,7 +20,7 @@ body{
 
 
 /*---------------------Estilos Headers(cabeçalho)------------------*/
-@media (max-width: 768px) {
+@media (max-width: 919px) {
     header {
         display: none; /* Esconde a header em telas menores que 768px */
     }
@@ -62,7 +62,7 @@ header a {
 
 header nav ul li{
     display: inline-block;
-    padding: 38px;
+    padding: 21px;
 }
 
 .btn_CV{
@@ -158,6 +158,7 @@ span{
 
 /*---------------------section sobreM------------------*/
 
+
 .sobreM{
     background-color:var(--backgraund_claro--);
 }
@@ -190,8 +191,35 @@ span{
 }
 
 
+/*---------------------section educação------------------*/
+
+
+.educa h1 {
+    text-align: center;
+    color: var(--vermelho_brilhante--);
+    text-shadow: 0 0 50px;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
+   
+}
+
+.educa h2 {
+    color: var(--cor_fonte--);
+    font-size: 1.5rem;
+}
+
+.educa p{
+    color: var(--cor_fonte--);
+    margin-bottom: 2rem;
+}
+
 /*---------------------section ferramentas------------------*/
 
+
+.ferramenta {
+    background-color: var(--backgraund_claro--);
+}
 
 .ferramentas h1 {
     text-align: center;
@@ -236,7 +264,7 @@ span{
 }
 
 .ferramentas-box {
-    background-color: var(--backgraund_claro--);
+    background-color: #0a0a0a;
     height: 250px;
     border-radius: 3rem;
     display: flex;

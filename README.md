@@ -7,4 +7,7 @@ Portfólio criado para a disciplina de Desenvolvimento Web do curso de Sistemas 
 
 O site é feito de duas partes principais:
 1. **home**: Onde o usario pode me conhecer e saber minhas redes.
-2. **Sobre mim**: Onde ele fala sobre o que sabe e o que gosta de fazer.
+2. **Sobre mim**: Onde tem um breve texto sobre mim.
+3. **Educação**: Onde o usuário pode vizualizar minhas informações educacionais
+4. **Ferramentas**: onde o usuário pode vizualizar as linguagens e ferramentas
+5. **Projetos**: Onde o usuário pode saber qual projetos eu ja participei 

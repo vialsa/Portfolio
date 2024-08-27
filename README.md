@@ -11,3 +11,10 @@ O site é feito de duas partes principais:
 3. **Educação**: Onde o usuário pode vizualizar minhas informações educacionais
 4. **Ferramentas**: onde o usuário pode vizualizar as linguagens e ferramentas
 5. **Projetos**: Onde o usuário pode saber qual projetos eu ja participei 
+
+
+
+Esse portifólio mostra quem quem sou eu, o que eu sei fazer e como entrar em contato com comigo. O HTML organiza tudo e o CSS deixa tudo bonito.
+
+Se tiver alguma dúvida, pode perguntar! 😊
+```

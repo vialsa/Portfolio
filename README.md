@@ -24,8 +24,8 @@ O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar 
 **HTML**: Segue a estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
 O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.
 
-#### Reset
-```Html
+#### Html *header
+```
 <header>
         <div class="interface">
             <div class="logo">

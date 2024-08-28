@@ -12,7 +12,12 @@ O site é feito de duas partes principais:
 4. **Ferramentas**: onde o usuário pode vizualizar as linguagens e ferramentas
 5. **Projetos**: Onde o usuário pode saber qual projetos eu ja participei 
 
-
+## Dados do Autor
+- **Nome:** Vitor Almeida Santos
+- **Instituição de estudo:** Instituto Federal de Educação, Ciência e Tecnologia Baiano - campus Itapetinga
+- **Website:** [vialsa.github.io](https://vialsa.github.io/)
+- **Email:** [20211ITA01GB0038@alunos.ifbaiano.edu.br](mailto:20211ITA01GB0038@alunos.ifbaiano.edu.br)
+- **Telefone:** +55 (73) 98835-9652
 
 Esse portifólio mostra quem quem sou eu, o que eu sei fazer e como entrar em contato com comigo. O HTML organiza tudo e o CSS deixa tudo bonito.
 

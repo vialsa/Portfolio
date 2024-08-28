@@ -141,7 +141,6 @@ header a:hover{
 }
 ```
 
-Esse portifólio mostra quem quem sou eu, o que eu sei fazer e como entrar em contato com comigo. O HTML organiza tudo e o CSS deixa tudo bonito.
+Este portfólio apresenta quem eu sou, minhas habilidades, e como entrar em contato comigo. O HTML estrutura o conteúdo de forma organizada, enquanto o CSS cuida da parte visual, tornando o site atraente e fácil de navegar.
 
-Se tiver alguma dúvida, pode perguntar! 😊
-```
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para perguntar! 😊

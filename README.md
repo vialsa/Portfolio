@@ -24,7 +24,7 @@ O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar 
 **HTML**: Segue a estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
 O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.
 
-#### Html *header*
+- #### Html *header*
 ```
 <header>
         <div class="interface">
@@ -64,7 +64,15 @@ O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferrame
         </div> <!--Termina a Interface-->
     </header>
 ```
+- #### Html *main*
 ![image](https://github.com/user-attachments/assets/90b83439-6a44-44d2-9788-ec40c287cc75)
+
+- #### Html *main*
+```
+<footer>
+        © 2024 Copyright Portifólio by Vitor Almeida
+</footer>
+```
 
 **CSS**: Um arquivo externo de CSS é utilizado para estilizar a página, aplicando cores escuras e vermelhas para criar um visual moderno e elegante.
 A página é responsiva, escondendo o cabeçalho em telas menores que 920px.

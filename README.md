@@ -75,7 +75,7 @@ O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar 
 </footer>
 ```
 
-##**CSS** 
+## **CSS** 
 - Um arquivo externo de CSS é utilizado para estilizar a página, aplicando cores escuras e vermelhas para criar um visual moderno e elegante. Alem de ter uma integração de Fonte importada do Google Fonts, utilizando a família "Ubuntu" para garantir uma tipografia consistente.
 
 #### CSS *Seletor Universal*

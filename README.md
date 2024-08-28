@@ -2,7 +2,7 @@
 
 Portfólio criado para a disciplina de Desenvolvimento Web do curso de Sistemas de Informação do Instituto Federal de Educação, Ciência e Tecnologia Baiano.
 
-## **Estrutura da Página**
+# **Estrutura da Página**
 
 O site é feito de duas partes principais:
 1. **home**: Onde o usario pode me conhecer e saber minhas redes.
@@ -11,16 +11,16 @@ O site é feito de duas partes principais:
 4. **Ferramentas**: onde o usuário pode vizualizar as linguagens e ferramentas
 5. **Projetos**: Onde o usuário pode saber qual projetos eu ja participei 
 
-## Dados do Autor
+# Dados do Autor
 - **Nome:** Vitor Almeida Santos
 - **Instituição de estudo:** Instituto Federal de Educação, Ciência e Tecnologia Baiano - campus Itapetinga
 - **Website:** [vialsa.github.io](https://vialsa.github.io/)
 - **Email:** [20211ITA01GB0038@alunos.ifbaiano.edu.br](20211ITA01GB0038@alunos.ifbaiano.edu.br)
 
-## Sobre o Codigo
+# Sobre o Codigo
 O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar de forma elegante e responsiva as habilidades, formação acadêmica, experiências e projetos desenvolvidos.
 
-### Estrutura do Código
+# Estrutura do Código
 **HTML**: 
 - Segue uma estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
 - O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.

@@ -21,8 +21,9 @@ O site é feito de duas partes principais:
 O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar de forma elegante e responsiva as habilidades, formação acadêmica, experiências e projetos desenvolvidos.
 
 ### Estrutura do Código
-**HTML**: Segue a estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
-O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.
+**HTML**: 
+- Segue uma estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
+- O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.
 
 - #### Html *header*
 ```html
@@ -74,9 +75,8 @@ O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferrame
 </footer>
 ```
 
-**CSS**: Um arquivo externo de CSS é utilizado para estilizar a página, aplicando cores escuras e vermelhas para criar um visual moderno e elegante.
-A página é responsiva, escondendo o cabeçalho em telas menores que 920px.
-Estilos personalizados são aplicados para diferentes elementos, como animações na imagem de perfil e efeitos de hover nos links de navegação.
+**CSS**: 
+- Um arquivo externo de CSS é utilizado para estilizar a página, aplicando cores escuras e vermelhas para criar um visual moderno e elegante. Alem de ter uma integração de Fonte importada do Google Fonts, utilizando a família "Ubuntu" para garantir uma tipografia consistente.
 
 #### CSS *Seletor Universal*
 ```css
@@ -93,6 +93,9 @@ Estilos personalizados são aplicados para diferentes elementos, como animaçõe
     --backgraund_claro--: #1010106f;
 }
 ```
+  
+- A página é responsiva, escondendo o cabeçalho em telas menores que 920px.
+
 #### CSS *Responsiva: 920px*
 ```css
 *{
@@ -102,6 +105,8 @@ Estilos personalizados são aplicados para diferentes elementos, como animaçõe
     }
 }
 ```
+  
+- Estilos personalizados são aplicados para diferentes elementos, como animações na imagem de perfil e efeitos de hover nos links de navegação.
 
 #### CSS *Animação Botão*
 ```css

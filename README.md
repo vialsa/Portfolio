@@ -21,9 +21,53 @@ O site é feito de duas partes principais:
 O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar de forma elegante e responsiva as habilidades, formação acadêmica, experiências e projetos desenvolvidos.
 
 ### Estrutura do Código
-**HTML**: HTML segue a estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
+**HTML**: Segue a estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
 O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.
 
+#### Reset
+```Html
+<header>
+        <div class="interface">
+            <div class="logo">
+                <a href="">
+                    <img src="img/wolf-4-svgrepo-com8.svg" alt="Logo">   
+                </a>
+            </div><!--Termina a logo/interface-->
+
+            <nav>
+                <ul>
+                    <li>
+                         <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sobreM">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#educa">Educação</a>
+                    </li>
+                    <li>
+                        <a href="#ferramenta">Ferramentas</a>
+                    </li>
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    
+
+                </ul>
+            </nav><!--Termina menu da interface_Dsk-->
+
+            <div class="btn_CV">
+                <a href="Vitor_Almeida_Currículo.pdf">
+                    <button>CV</button>
+                </a>
+            </div>
+        </div> <!--Termina a Interface-->
+    </header>
+```
+
+**CSS**: Um arquivo externo de CSS é utilizado para estilizar a página, aplicando cores escuras e vermelhas para criar um visual moderno e elegante.
+A página é responsiva, escondendo o cabeçalho em telas menores que 920px.
+Estilos personalizados são aplicados para diferentes elementos, como animações na imagem de perfil e efeitos de hover nos links de navegação.
 
 Esse portifólio mostra quem quem sou eu, o que eu sei fazer e como entrar em contato com comigo. O HTML organiza tudo e o CSS deixa tudo bonito.
 

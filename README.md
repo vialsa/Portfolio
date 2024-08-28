@@ -21,11 +21,11 @@ O site é feito de duas partes principais:
 O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar de forma elegante e responsiva as habilidades, formação acadêmica, experiências e projetos desenvolvidos.
 
 # Estrutura do Código
-**HTML**: 
+##**HTML**: 
 - Segue uma estrutura padrão, contendo uma seção *header* para a navegação, *main* para o conteúdo principal e *footer* para o rodapé.
 - O conteúdo é dividido em seções: "Home", "Sobre Mim", "Educação", "Ferramentas", e "Projetos", cada uma com um ID específico para facilitar a navegação.
 
-- #### Html *header*
+#### Html *header*
 ```html
 <header>
         <div class="interface">
@@ -65,7 +65,7 @@ O codigo em si foi desenvolvido utilizando HTML e CSS. O objetivo é apresentar 
         </div> <!--Termina a Interface-->
     </header>
 ```
-- #### Html *main*
+#### Html *main*
 ![image](https://github.com/user-attachments/assets/90b83439-6a44-44d2-9788-ec40c287cc75)
 
 - #### Html *footer*

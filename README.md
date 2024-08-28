@@ -16,8 +16,7 @@ O site é feito de duas partes principais:
 - **Nome:** Vitor Almeida Santos
 - **Instituição de estudo:** Instituto Federal de Educação, Ciência e Tecnologia Baiano - campus Itapetinga
 - **Website:** [vialsa.github.io](https://vialsa.github.io/)
-- **Email:** [20211ITA01GB0038@alunos.ifbaiano.edu.br](mailto:20211ITA01GB0038@alunos.ifbaiano.edu.br)
-- **Telefone:** +55 (73) 98835-9652
+- **Email:** [20211ITA01GB0038@alunos.ifbaiano.edu.br](20211ITA01GB0038@alunos.ifbaiano.edu.br)
 
 Esse portifólio mostra quem quem sou eu, o que eu sei fazer e como entrar em contato com comigo. O HTML organiza tudo e o CSS deixa tudo bonito.
 
